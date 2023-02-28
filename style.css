@@ -95,3 +95,40 @@ h2 {
     display: flex;
     gap: 2rem;
 }
+
+@media (max-width:1200px) {
+    .itens-center {
+        flex-direction: column;
+    }
+    footer,
+    section {
+        padding: 5rem;
+    }
+
+    .main {
+        margin-bottom: 2rem;
+    }
+
+    .main-title {
+        font-size: 3rem;
+    }
+
+    .project-image {
+        width: 38rem;
+        height: auto;
+
+    }
+
+    .nav-links {
+        justify-content: center;
+
+    }
+
+
+    .avatar {
+        width: 18rem;
+        height: 18rem;
+
+        margin-right: 0;
+    }
+}

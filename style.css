@@ -40,12 +40,17 @@ h2 {
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
+    font-size: 1.8rem;
 }
 
 
 .nav-links a {
     color: #ffffff;
     text-decoration: none;
+}
+
+.main {
+    margin-bottom: 5rem;
 }
 
 .avatar {
